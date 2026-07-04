@@ -15,7 +15,7 @@ A full-stack hotel booking application built with the MERN Stack.
 
 ### Clone
 
-git clone https://github.com/yourname/hotel-booking-app.git
+git clone https://github.com/SaikatKarar/hotel-booking-app.git
 
 ### Frontend
 
