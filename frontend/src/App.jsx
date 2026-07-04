@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import { useLocation } from 'react-router-dom'
 
 function App() {
+
+  const isOwnerPath = useLocation().pathname.includes("owner");
+
   return (
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      {!isOwnerPath && <Navbar />}
+    </>
   )
 }
 
