@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 function FeaturedDestination() {
     const navigate = useNavigate();
     return (
-        <section className="px-6 md:px-16 lg:px-24 xl:px-32 py-20">
+        <section className="bg-gray-100 px-6 md:px-16 lg:px-24 xl:px-32 py-20">
 
             {/* Heading */}
             <Title
